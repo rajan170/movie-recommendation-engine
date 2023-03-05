@@ -1,7 +1,11 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import requests
+import config
 
+def fetch_posters(movie_id):
+    requests.get('')
 
 def recommend(movie):
     movie_index = movies[movies['title'] == movie].index[0]
@@ -10,8 +14,11 @@ def recommend(movie):
 
     recommended_movies=[]
     for i in movies_list:
-        #         print(new_df.iloc[i[0]].title, i[0] )
-        recommended_movies.append((movies.iloc[i[0]].title))
+        # print(new_df.iloc[i[0]].title, i[0] )
+
+        movie_id=i[0]
+
+        recommended_movies.append(movies.iloc[i[0]].title) 
     return recommended_movies
 
 
