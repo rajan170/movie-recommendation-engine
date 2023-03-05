@@ -242,3 +242,9 @@ fabric.properties
 # Ignore pickles
 *.pkl
 **/*.pkl
+app/config.py
+app/movies_dict.pkl
+app/similarity.pkl
+movies.pkl
+movies_dict.pkl
+similarity.pkl
