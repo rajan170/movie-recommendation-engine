@@ -239,12 +239,12 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-# Ignore pickles
-*.pkl
-**/*.pkl
-app/config.py
-app/movies_dict.pkl
-app/similarity.pkl
-movies.pkl
-movies_dict.pkl
-similarity.pkl
+# # Ignore pickles
+# *.pkl
+# **/*.pkl
+# app/config.py
+# app/movies_dict.pkl
+# app/similarity.pkl
+# movies.pkl
+# movies_dict.pkl
+# similarity.pkl
